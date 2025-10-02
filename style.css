@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+
+body {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EAFAEA;
+}
+
+h1 {
+    color: #780C28;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #EAFAEA;
+    padding: 10px;
+    border-radius: 6px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    background-color: #CAE0BC;
+    border-radius: 8px;
+    width: 400px;
+    min-height: 400px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+p {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #EAFAEA;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+.checks {
+    accent-color: #6E8E59;
+    transform: scale(1.2);
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+
+.taskText {
+    flex-grow: 1;
+    color: #780C28;
+    font-weight: 500;
+    margin-left: 6px;
+}
+
+#todoInput {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    color: #780C28;
+    background-color: #EAFAEA;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.inputBox {
+    padding: 20px;
+}
+
+p {
+    padding: 10px;
+}
+
+.checks {
+    margin-right: 4x;
+}
+
+.DelBtn {
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    margin-left: 10px;
+    color: white;
+    background-color: #780C28;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.DelBtn:hover {
+    background-color: #a06c7a;
+}
+
+#addTodoBtn {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-weight: 500;
+    background-color: #6E8E59;
+    color: white;
+}
+
+#addTodoBtn:hover{
+     background-color: #809472; 
+}
+
+
+#taskList {
+    padding: 20px;
+}
